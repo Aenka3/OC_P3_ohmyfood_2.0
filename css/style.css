@@ -100,10 +100,6 @@
   background: var(--violet);
 }
 
-::-webkit-scrollbar-button {
-  color: var(--violet);
-}
-
 /* SCROLLBAR FIREFOX */
 
 * {
