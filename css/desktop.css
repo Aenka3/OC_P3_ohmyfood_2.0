@@ -1,0 +1,13 @@
+  @media all and (min-width: 1251px) {
+    #process ul li {
+        width: 31%;
+    }
+
+    .card {
+      width: 23%;
+    }
+
+    .plats{
+      width: 31%;
+    }
+  }

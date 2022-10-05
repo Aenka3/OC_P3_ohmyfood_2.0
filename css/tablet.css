@@ -1,0 +1,15 @@
+@media all and (min-width: 820px) {
+    footer a{
+      display: flex;
+      justify-content: center;
+    }
+
+    .card {
+      width: 47%;
+    }
+  
+    .plats{
+      width: 49%;
+    }
+  }
+  
