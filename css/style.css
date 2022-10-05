@@ -21,21 +21,21 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    opacity: 0.5;
+    opacity: 0.7;
   }
   50% {
     background: linear-gradient(to bottom, #9356dc, #9e5fec, #cf64dc, #e86edb, #ff79da);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    opacity: 0.7;
+    opacity: 0.8;
   }
   75% {
     background: linear-gradient(to bottom, #9356dc, #9e5fec, #cf64dc, #e86edb, #ff79da);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    opacity: 0.8;
+    opacity: 0.9;
   }
   100% {
     background: linear-gradient(to bottom, #9356dc, #9e5fec, #cf64dc, #e86edb, #ff79da);
@@ -86,7 +86,7 @@
   --green2: #139273;
 }
 
-/* GÉNÉRAL */
+/* SCROLLBAR */
 
 ::-webkit-scrollbar{
   width: 6px;
@@ -99,6 +99,19 @@
 ::-webkit-scrollbar-thumb {
   background: var(--violet);
 }
+
+::-webkit-scrollbar-button {
+  color: var(--violet);
+}
+
+/* SCROLLBAR FIREFOX */
+
+* {
+  scrollbar-color: var(--violet) var(--violet);
+  scrollbar-width: thin;
+}
+
+/* GÉNÉRAL */
 
 body {
     width: 100%;
